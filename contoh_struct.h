@@ -8,6 +8,6 @@
 #ifndef CONTOH_STRUCT_H_
 #define CONTOH_STRUCT_H_
 
-void contohStruct();
+void contohStructa();
 
 #endif /* CONTOH_STRUCT_H_ */
