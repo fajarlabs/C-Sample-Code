@@ -3,12 +3,12 @@
 
 
 void contohWhile() {
-/* local variable definition */
+/* definisi variabel lokal */
    int a = 10;
 
-   /* while loop execution */
+   /* eksekusi perulangan While */
    while( a < 20 ) {
-      printf("value of a: %d\n", a);
+      printf("nilai a: %d\n", a);
       a++;
    }
 }
