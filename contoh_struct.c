@@ -2,22 +2,22 @@
 #include <string.h>
 #include <stdio.h>
 
-struct Books {
-   char  title[50];
-   char  author[50];
-   char  subject[100];
-   int   book_id;
+struct Buku {
+   char  judul[50];
+   char  penulis[50];
+   char  subjek[100];
+   int   id_buku;
 };
 
 void contohStruct() {
-	struct Books book;
-	strcpy(book.title,"Belajar C");
-	strcpy(book.author,"Fajar Rizki");
-	strcpy(book.subject,"Belajar C Fundamental");
-	book.book_id = 1;
+	struct Buku buku;
+	strcpy(buku.judul,"Belajar C");
+	strcpy(buku.penulis,"Fajar Rizki");
+	strcpy(buku.subjek,"Belajar C Fundamental");
+	buku.id_buku = 1;
 
-	printf("Title %s \n",book.title);
-	printf("Author %s \n",book.author);
-	printf("Subject %s \n",book.subject);
-	printf("Book ID %d \n", book.book_id);
+	printf("Judul %s \n",buku.judul);
+	printf("Penulis %s \n",buku.penulis);
+	printf("Subjek %s \n",buku.subjek);
+	printf("ID Buku %d \n", buku.id_buku);
 }

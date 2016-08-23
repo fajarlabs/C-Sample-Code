@@ -15,6 +15,7 @@
 #include "contoh_for.h"
 #include "contoh_extern.h"
 #include "contoh_constants.h"
+#include "contoh_do_while.h"
 
 int x;
 int main(void) {
@@ -23,6 +24,7 @@ int main(void) {
 	/* contohWhile(); */
 	/* contohFor(); */
 	/* contohExtern(); */
-	contohConstants();
+	/* contohConstants(); */
+	contohDoWhile();
 	return EXIT_SUCCESS;
 }

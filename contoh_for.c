@@ -4,8 +4,8 @@
 void contohFor() {
    int a;
 
-   /* for loop execution */
+   /* Eksekusi perulangan For */
    for( a = 10; a < 20; a = a + 1 ){
-	  printf("value of a: %d\n", a);
+	  printf("nilai a: %d\n", a);
    }
 }
