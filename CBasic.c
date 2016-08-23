@@ -1,9 +1,9 @@
 /*
  ============================================================================
  Name        : CBasic.c
- Author      : 
- Version     :
- Copyright   : Your copyright notice
+ Author      : Fajar Rizki
+ Version     : 1.0
+ Copyright   : fajarlabs @2016
  Description : Hello World in C, Ansi-style
  ============================================================================
  */
