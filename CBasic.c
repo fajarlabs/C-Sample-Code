@@ -17,16 +17,22 @@
 #include "contoh_constants.h"
 #include "contoh_do_while.h"
 #include "contoh_nested_for.h"
+#include "contoh_function.h"
+#include "contoh_scope_rules.h"
 
-int x;
+int x; /* global variabel untuk extern */
 int main(void) {
-	x = 4;
+	x = 4; /* test extern */
+
 	/* contohStruct(); */
 	/* contohWhile(); */
 	/* contohFor(); */
 	/* contohExtern(); */
 	/* contohConstants(); */
 	/* contohDoWhile(); */
-	contohNestedFor();
+	/* contohNestedFor(); */
+	/* persegiPanjang(4,5); */
+	contohAksesScope();
+
 	return EXIT_SUCCESS;
 }
