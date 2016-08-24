@@ -25,6 +25,8 @@
 #include "contoh_function_return.h"
 #include "contoh_pointer.h"
 #include "contoh_union.h"
+#include "contoh_bit_fields.h"
+#include "contoh_typedef.h"
 
 int x; /* global variabel untuk extern */
 int main(void) {
@@ -53,7 +55,9 @@ int main(void) {
     	printf("%d\n", array[counter]);
    	}*/
     /* contohPointer(); */
-    contohUnion();
+    /* contohUnion(); */
+    /* contohBitFields(); */
+    contohTypedef();
 
 	return EXIT_SUCCESS;
 }

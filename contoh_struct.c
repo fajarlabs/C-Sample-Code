@@ -10,7 +10,7 @@ struct Buku {
 };
 
 void contohStruct() {
-	struct Buku buku;
+	struct Buku buku; /* awalan kata diberi struct */
 	strcpy(buku.judul,"Belajar C");
 	strcpy(buku.penulis,"Fajar Rizki");
 	strcpy(buku.subjek,"Belajar C Fundamental");
