@@ -24,6 +24,7 @@
 #include "contoh_parameter_array.h"
 #include "contoh_function_return.h"
 #include "contoh_pointer.h"
+#include "contoh_union.h"
 
 int x; /* global variabel untuk extern */
 int main(void) {
@@ -51,7 +52,8 @@ int main(void) {
    	for(counter=0; counter<10; counter++){
     	printf("%d\n", array[counter]);
    	}*/
-    contohPointer();
+    /* contohPointer(); */
+    contohUnion();
 
 	return EXIT_SUCCESS;
 }
