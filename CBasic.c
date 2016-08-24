@@ -19,6 +19,11 @@
 #include "contoh_nested_for.h"
 #include "contoh_function.h"
 #include "contoh_scope_rules.h"
+#include "contoh_array.h"
+#include "contoh_array2d.h"
+#include "contoh_parameter_array.h"
+#include "contoh_function_return.h"
+#include "contoh_pointer.h"
 
 int x; /* global variabel untuk extern */
 int main(void) {
@@ -32,7 +37,21 @@ int main(void) {
 	/* contohDoWhile(); */
 	/* contohNestedFor(); */
 	/* persegiPanjang(4,5); */
-	contohAksesScope();
+	/* contohAksesScope(); */
+	/* contohArray(); */
+	/* contohArray2D(); */
+	/*
+	int data[5] = {1000, 2, 3, 17, 50};
+	contohArrParameter1(data);
+	*/
+	/*
+   	int * array = contohFunctionReturn1(10);
+   	int counter;
+   	printf("Even Numbers\n");
+   	for(counter=0; counter<10; counter++){
+    	printf("%d\n", array[counter]);
+   	}*/
+    contohPointer();
 
 	return EXIT_SUCCESS;
 }
