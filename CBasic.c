@@ -27,6 +27,8 @@
 #include "contoh_union.h"
 #include "contoh_bit_fields.h"
 #include "contoh_typedef.h"
+#include "contoh_getchar_putchar.h"
+#include "contoh_scanf.h"
 
 int x; /* global variabel untuk extern */
 int main(void) {
@@ -57,7 +59,9 @@ int main(void) {
     /* contohPointer(); */
     /* contohUnion(); */
     /* contohBitFields(); */
-    contohTypedef();
+    /* contohTypedef(); */
+    /* contohGetcharPutchar(); */
+    contohScanf();
 
 	return EXIT_SUCCESS;
 }
