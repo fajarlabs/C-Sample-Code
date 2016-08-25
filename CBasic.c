@@ -29,6 +29,8 @@
 #include "contoh_typedef.h"
 #include "contoh_getchar_putchar.h"
 #include "contoh_scanf.h"
+#include "contoh_file_io.h"
+#include "contoh_preprocessor.h"
 
 int x; /* global variabel untuk extern */
 int main(void) {
@@ -61,7 +63,9 @@ int main(void) {
     /* contohBitFields(); */
     /* contohTypedef(); */
     /* contohGetcharPutchar(); */
-    contohScanf();
+    /* contohScanf(); */
+    /* contohFileIO(); */
+    	contohPreprocessor();
 
 	return EXIT_SUCCESS;
 }
