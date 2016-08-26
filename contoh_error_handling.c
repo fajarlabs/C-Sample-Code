@@ -13,9 +13,7 @@ void contohErrorHandling() {
        fprintf(stderr, "Isi dari errno: %d\n", errno);
        perror("Cetak error oleh perror");
        fprintf(stderr, "Error saat membuka file: %s\n", strerror( errnum ));
-    }
-    else {
+    } else 
+      fclose (pf);
     
-       fclose (pf);
-    }
 }

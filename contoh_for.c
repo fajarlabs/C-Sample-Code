@@ -5,7 +5,6 @@ void contohFor() {
    int a;
 
    /* Eksekusi perulangan For */
-   for( a = 10; a < 20; a = a + 1 ){
+   for( a = 10; a < 20; a = a + 1 )
 	  printf("nilai a: %d\n", a);
-   }
 }

@@ -9,6 +9,7 @@ void contohNestedFor() {
 		for (j = 2; j <= (i / j); j++)
 			if (!(i % j))
 				break; // jika faktor ada bukan prima
+				       // 
 		if (j > (i / j))
 			printf("%d prima \n", i);
 	}

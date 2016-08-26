@@ -18,13 +18,10 @@ OPEN CMD
 */
 int main( int argc, char *argv[] )  {
 
-   if( argc == 2 ) {
+   if( argc == 2 )
       printf("Argument yang disediakan %s\n", argv[1]);
-   }
-   else if( argc > 2 ) {
+   else if( argc > 2 )
       printf("Terlalu banyak argument yang dimasukkan.\n");
-   }
-   else {
+   else
       printf("Hanya 1 argument.\n");
-   }
 }

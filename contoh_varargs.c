@@ -11,9 +11,8 @@ double average(int count,...) { /* count -> jumlah argumentnya */
    va_start(valist, count);
 
    /* access all the arguments assigned to valist */
-   for (i = 0; i < count; i++) {
+   for (i = 0; i < count; i++)
       sum += va_arg(valist, int);
-   }
 	
    /* clean memory reserved for valist */
    va_end(valist);

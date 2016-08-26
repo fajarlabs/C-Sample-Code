@@ -14,9 +14,9 @@ void contohArrParameter1(int* arg) {
 	seperti *(arg+index) */
 	int i;
 	int length = 5; /* manual */
-	for ( i = 0; i < length; i++ ) {
+	for ( i = 0; i < length; i++ )
 		printf("*(p + %d) : %d\n",  i, *(arg + i) );
-	}
+	
 }
 
 void contohArrParameter2(int arg[10]) {
