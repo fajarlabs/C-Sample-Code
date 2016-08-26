@@ -31,6 +31,9 @@
 #include "contoh_scanf.h"
 #include "contoh_file_io.h"
 #include "contoh_preprocessor.h"
+#include "contoh_recursion.h"
+#include "contoh_varargs.h"
+#include "contoh_memory_management.h"
 
 int x; /* global variabel untuk extern */
 int main(void) {
@@ -65,7 +68,12 @@ int main(void) {
     /* contohGetcharPutchar(); */
     /* contohScanf(); */
     /* contohFileIO(); */
-    	contohPreprocessor();
+    /* contohPreprocessor(); */
+    /* contohErrorHandling(); */
+    /* contohRecursion(); */
+    /* contohVarargs(); */
+    	contohResizeRelease();
+    	contohMalloc();
 
 	return EXIT_SUCCESS;
 }
