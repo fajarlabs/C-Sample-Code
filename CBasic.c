@@ -34,6 +34,7 @@
 #include "contoh_recursion.h"
 #include "contoh_varargs.h"
 #include "contoh_memory_management.h"
+#include "contoh_fibonacci.h"
 
 int x; /* global variabel untuk extern */
 int main(void) {
@@ -72,8 +73,19 @@ int main(void) {
     /* contohErrorHandling(); */
     /* contohRecursion(); */
     /* contohVarargs(); */
-    	contohResizeRelease();
-    	contohMalloc();
+    /*	contohResizeRelease();
+    	contohMalloc(); */
+      contohFibonacci();
 
 	return EXIT_SUCCESS;
 }
+
+/*
+
+Cara menjalankannya :
+
+> gcc contoh_fibonacci.c CBasic.c -o app
+
+Keterangan : 
+contoh_fibonacci.c diganti dengan sampel-sampel kode yang lain 
+*/
